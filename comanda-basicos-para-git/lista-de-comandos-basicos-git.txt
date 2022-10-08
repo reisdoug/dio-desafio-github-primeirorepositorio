@@ -1,0 +1,111 @@
+# Comandos Básicos GIT - Curso DIO :book:
+
+### Lista de Comandos Básicos de Git que aprendi no Curso: :pencil:
+
+###### (Para Windows)
+
+
+
+- ##### Criar User Name e Adicionar e-mail após Instalação do Git: 
+
+  - git config --global user.email "Seu E-mail"
+  - git config --global user.name "Seu Use Name"
+    
+
+- ##### Completar "Nome do Arquivo": 
+
+  - "Tecla TAB"
+    
+
+- ##### Limpar Terminal: 
+
+  - Ctrl + L
+    
+
+- ##### Voltar um nível:
+
+  - cd..
+    
+
+- ##### Deletar somente o Arquivo: 
+
+  - "Tecla Delete"
+    
+
+- ##### Remover todos os Repositórios com os Arquivos Dentro: 
+
+  - Rmdir "Nome da Pasta" /s /q
+    
+
+- ##### Chave SSH:
+
+  - ssh-keygen -t ed25519 -c "Seu E-mail aqui"
+    
+
+- ##### Pasta da Chave SSH:
+
+  - cd /c/users/"Nome da Pasta"/.ssh/
+    
+
+- ##### Expor a Chave SSH Publica:
+
+  - cat id_ed25519.pub
+    
+
+- ##### Listar Arquivos: 
+
+  - ls
+    
+
+- ##### Criar um Repositório Local: 
+
+  - git init
+    
+
+- ##### Adicionar Arquivo Modificado no Stage: 
+
+  - git add *
+  - git add.
+    
+
+- ##### Commitar um Arquivo: 
+
+  - git commit -m "Nome e Instruções do Commit"
+    
+
+- ##### Status do Arquivo: 
+
+  - git status
+    
+
+- ##### Criar uma Pasta: 
+
+  - mkdir "Nome da Pasta"
+    
+
+- ##### Adicionar Repositório no Git:
+
+  - git remote add origin "Link do repositório"
+    
+
+- ##### Listar Repositórios Adicionados:
+
+  - git remote -v
+    
+
+- ##### Enviar repositório para o GITHUB: 
+
+  - git push origin master
+    
+
+- ##### Puxar Repositório do GITHUB para o GIT: 
+
+  - git pull origin master
+    
+
+  
+
+  
+
+  
+
